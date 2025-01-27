@@ -1,12 +1,14 @@
-# Homebrew
+# Terminal
+
+## Homebrew
 [Install Homebrew](https://brew.sh/)
 
-# Oh My Zsh
+## Oh My Zsh
 ``` 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-# Kitty
+## Kitty
 Terminal.
 ```bash 
 brew install --cask kitty
@@ -15,20 +17,24 @@ Color theme.
 ```bash
 kitten themes
 ```
+Font
+```bash
+brew install font-fira-code-nerd-font
+```
+change font_family to `FiraCode Nerd Font Mono` in ```~/.config/kitty/kitty.conf```
 
-# Powerlevel10k
+## Powerlevel10k
 Customize prompt.
 ```bash
 brew install powerlevel10k
 ```
 
-# Git
+## Git
 ```
 brew install git
 ```
 
-
-# Pfetch
+## Pfetch
 Show system info in terminal.
 ```
 brew install pfetch
@@ -41,7 +47,7 @@ pfetch
 To the first line of ```~/.zshrc```, where "alpine" is the ASCII logo you want to print.
 
 
-# Zoxide
+## Zoxide
 An autojump command line tool.
 ```
 brew install zoxide
@@ -52,7 +58,8 @@ eval "$(zoxide init zsh)"
 ```
 to the last line of ```~/.zshrc```.
 
-# zsh-syntax-highlighting
+## zsh-syntax-highlighting
 ```
 brew install zsh-syntax-highlighting
 ```
+# VS code
